@@ -1,0 +1,30 @@
+img{
+width: 200px;
+}
+.cards{
+  border: 1px solid black;
+  display: flex ;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 25px;
+}
+.card{
+  max-width: 230px;
+  width: 100%;
+  border: 1px solid black;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
